@@ -17,9 +17,13 @@
   "devDependencies": {
     "jest": "^27.5.1"
   },
-  "coverageThreshold": {
-    "branches": 100,
-    "functions": 100,
-    "lines": 100
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
   }
 }

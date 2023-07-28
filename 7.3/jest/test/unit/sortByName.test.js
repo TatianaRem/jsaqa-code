@@ -7,12 +7,12 @@ describe("Books names test suit", () => {
       "Гарри Поттер",
       "Властелин Колец",
       "Волшебник изумрудного города",
-    ]
+    ];
     const expected = [
       "Властелин Колец",
       "Волшебник изумрудного города",
       "Гарри Поттер",
-    ]
+    ];
 
     const result = sorting.sortByName(input);
 
